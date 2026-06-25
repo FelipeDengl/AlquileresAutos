@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionBD {
 
     private static final String URL =
-        "jdbc:mysql://mysql-26b5bccf-coloniagatos-3a63.b.aivencloud.com:23916/alquiler_vehiculos?sslMode=REQUIRED";
+        "jdbc:mysql://mysql-26b5bccf-coloniagatos-3a63.b.aivencloud.com:23916/alquiler_vehiculos?sslMode=REQUIRED&connectionTimeZone=America/Argentina/Buenos_Aires";
 
     private static final String USER = "avnadmin";
 
